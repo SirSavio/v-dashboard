@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 import Dashboard from "./views/Dashboard.vue";
 import Forms from "./views/Forms.vue";
@@ -8,9 +8,10 @@ import Login from "./views/Login.vue";
 import Modal from "./views/Modal.vue";
 import Card from "./views/Card.vue";
 import Blank from "./views/Blank.vue";
-import NotFound from "./views/NotFound.vue";
+//import NotFound from "./views/NotFound.vue";
+import Register from './views/Register.vue'
 
-const routes: RouteRecordRaw[] = [
+const routes = [
   {
     path: "/",
     name: "Login",
@@ -52,6 +53,12 @@ const routes: RouteRecordRaw[] = [
     name: "Blank",
     component: Blank,
   },
+  {
+    path: '/register',
+    name: 'Register',
+    component: Register,
+    meta: {layout: 'empyt'}
+  }
 ];
 
 const router = createRouter({
