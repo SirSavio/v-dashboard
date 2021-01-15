@@ -10,6 +10,8 @@ import Card from "./views/Card.vue";
 import Blank from "./views/Blank.vue";
 //import NotFound from "./views/NotFound.vue";
 import Register from './views/Register.vue'
+import Products from './views/Products.vue'
+
 
 const routes = [
   {
@@ -58,6 +60,11 @@ const routes = [
     name: 'Register',
     component: Register,
     meta: {layout: 'empyt'}
+  },
+  {
+    path: '/products',
+    name: 'Products',
+    component: Products
   }
 ];
 
