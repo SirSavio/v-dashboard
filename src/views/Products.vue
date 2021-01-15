@@ -1,13 +1,7 @@
 <template>
     <div>
-        <button @click="showSingle">Show single picture.</button>
-        <button @click="showMultiple">Show a group of pictures.</button>
-
-        <div
-            class="place-items-center content-center grid grid-cols-1 gap-5 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5"
-        >
+        <div class="place-items-center content-center grid grid-cols-1 gap-5 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
             <card v-for="product in products" :key="product.id" :product="product"></card>
-            
         </div>
     </div>
 </template>

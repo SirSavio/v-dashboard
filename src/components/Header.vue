@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex justify-between items-center py-4 px-6 bg-white border-b-4 border-indigo-600"
+    class="flex justify-between items-center py-4 px-6 bg-white border-b-4 border-red-600"
   >
     <div class="flex items-center">
       <button
@@ -37,7 +37,7 @@
         </span>
 
         <input
-          class="form-input w-32 sm:w-64 rounded-md pl-10 pr-4 focus:border-indigo-600"
+          class="form-input w-32 sm:w-64 rounded-md pl-10 pr-4 focus:border-red-600"
           type="text"
           placeholder="Search"
         />
@@ -86,17 +86,17 @@
         >
           <a
             href="#"
-            class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white"
+            class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white"
             >Profile</a
           >
           <a
             href="#"
-            class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white"
+            class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white"
             >Products</a
           >
           <router-link
             to="/"
-            class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-600 hover:text-white"
+            class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-600 hover:text-white"
             >Log out</router-link
           >
         </div>

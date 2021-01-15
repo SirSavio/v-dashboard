@@ -1,15 +1,8 @@
 <template>
-    <div>
+    <div class="min-w-max">
         <div class="mt-4 mb-3">
-            <div
-                class="max-w-sm rounded bg-white overflow-hidden shadow-lg mt-6"
-            >
-                <div @click="show" class="thumb" :style="{'background': 'url('+product.imgs[0]+')'}"></div>
-                <!-- <img
-          class="w-full h-64"
-          src="https://images.unsplash.com/photo-1589066615133-f107789a2f50?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2467&q=80"
-          alt="Sunset in the mountains"
-        /> -->
+            <div class="max-w-sm teste rounded bg-white overflow-hidden shadow-lg mt-6">
+                <div @click="show" class="thumb" :style="{'background': 'url('+product.imgs[0]+') 50% 50% no-repeat'}"></div>
                 <div class="px-6 py-4">
                     <div class="text-gray-900 font-bold text-xl mb-0">
                         {{product.title}}
@@ -102,5 +95,8 @@ export default {
     width: 100%;
     height: 230px;
     cursor: pointer;
+}
+.teste{
+    height: 500px;;
 }
 </style>
