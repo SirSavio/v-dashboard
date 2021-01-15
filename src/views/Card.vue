@@ -34,8 +34,6 @@
         </div>
         <!-- all props & events -->
         <vue-easy-lightbox
-            escDisabled
-            moveDisabled
             :visible="visible"
             :imgs="product.imgs"
             :index="index"
@@ -101,9 +99,8 @@ export default {
 
 <style scoped>
 .thumb {
-    background: url("https://images.unsplash.com/photo-1585749865060-6c04f2481d62?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80")
-        50% 50% no-repeat;
     width: 100%;
     height: 230px;
+    cursor: pointer;
 }
 </style>
