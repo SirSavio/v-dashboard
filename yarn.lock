@@ -2426,6 +2426,11 @@ vite@^1.0.0-rc.8:
     vue "^3.0.2"
     ws "^7.3.1"
 
+vue-easy-lightbox@^1.0.0-rc.3:
+  version "1.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/vue-easy-lightbox/-/vue-easy-lightbox-1.0.0-rc.3.tgz#acb38a27575ceceab529fa7cd9c21c3fba3c907c"
+  integrity sha512-lTy/RwwlUBFZYgLvWoknLavd1Qa3vIpt/Gqxb5s91Vqrtpl+idMHRh++hWkHfGim37uIpqpVeGg+Tggi06fGrA==
+
 vue-router@^4.0.0-beta.13:
   version "4.0.0-beta.13"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-beta.13.tgz#4611d09a9e44f231cc401ecc294a7f2dcb30e6a6"
